@@ -4,16 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+        </style>
+    <link href="styles.css" rel="stylesheet">
     <title>Hypotenuse</title>
 </head>
 <body>
+    <div class="header">
+        <a class="nav-link" href="istriangle.html">Is Triangle?</a>
+        <a class="nav-link" href="quiz.html">Triangle Quiz</a>
+        <a class="nav-link" href="hypotenuse.html">Hypotenuse</a>
+    </div>
+
+<div class="container">
     <h1>Check Hypotenuse</h1>
     <label>Length of side A</label>
-    <input id="input-a" type="number" >
+    <input class="input" id="input-a" type="number" >
     <label>Length of side B</label>
-    <input id="input-b" type="number" >
-    <button id="btn-calculate-hypo" >Calculate Hypotenuse</button>
+    <input class="input" id="input-b" type="number" >
+    <button class="btn" id="btn-calculate-hypo" >Calculate Hypotenuse</button>
     <h2 id="output-hypo"></h2>
     <script src="hypotenuse.js"></script>
+
+    <!-- footer -->
+    <div class="footer">
+        <h3 id="footer-heading">Connect to me</h3>
+        <a id="footer-name" href="https://nisarg-pawade.netlify.app/">Nisarg Pawade</a>
+        <ul>
+            <li>
+                <a class="social-link" href="https://github.com/nisargpawade"><img class="social" src="images/social/github.svg" role="img" alt="github"></a>
+            </li>
+            <li>
+                <a class="social-link" href="https://www.linkedin.com/in/nisarg-pawade-155619197/"><img class="social" src="images/social/linkedin.svg" role="img" alt="linkedin"></a>
+            </li>
+            <li>
+                <a class="social-link" href="https://twitter.com/NisargPawade"><img class="social" src="images/social/twitter.svg" role="img" alt="twitter"></a>
+            </li>
+        </ul>
+    </div>
+</div>
+
 </body>
 </html>
