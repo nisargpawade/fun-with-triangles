@@ -12,10 +12,13 @@
 </head>
 <body>
     <div class="header">
-        <a class="nav-link" href="index.html">Is Triangle?</a>
-        <a class="nav-link" href="quiz.html">Triangle Quiz</a>
-        <a class="nav-link" href="hypotenuse.html">Hypotenuse</a>
-    </div>
+        <ul class="navbar">
+            <li><a class="nav-link" href="index.html">Is Triangle?</a></li>
+            <li><a class="nav-link" href="quiz.html">Triangle Quiz</a></li>
+            <li><a class="nav-link" href="hypotenuse.html">Hypotenuse</a></li>
+            <li><a class="nav-link" href="area.html">Area of Triangle</a></li>
+        </ul>
+        </div>
     <div class="container">
     <h1>Triangle Quiz</h1>
     <form class="quiz-form">
@@ -32,8 +35,8 @@
             <label ><input type="radio" name="que2" value="right angled">right angled</label>
         </div>
     </form>
-    <button id="btn-submit">Submit Answers</button>
-    <div id="output-quiz"></div>
+    <button class="btn" id="btn-submit">Submit Answers</button>
+    <h3 id="output-quiz" ></h3>
     <script src="quiz.js"></script>
 
     <!-- footer -->
